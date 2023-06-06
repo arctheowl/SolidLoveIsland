@@ -1,6 +1,7 @@
-import { createEffect, createSignal } from "solid-js";
+import { createEffect, createSignal, Show } from "solid-js";
 import data from "/data/2023/CurrentCouples.json";
 import Bio from "./Bio";
+import { BsHeartbreakFill } from "solid-icons/bs";
 
 type Props = {
   selection: () => string;
@@ -8,8 +9,9 @@ type Props = {
 };
 
 const Partner = (props: Props) => {
-  const [partner, setPartner] = createSignal("Select Contestant");
+  const [partner, setPartner] = createSignal("");
   createEffect(() => {
+    setPartner("");
     data.map((couple: any) => {
       if (couple.name == props.selection()) {
         setPartner(couple.partner);
@@ -19,9 +21,17 @@ const Partner = (props: Props) => {
     });
   });
   return (
-    <>
+    <Show
+      when={partner() != ""}
+      fallback={
+        <div>
+          <h1>SINGLE MINGLE</h1>
+          <BsHeartbreakFill />
+        </div>
+      }
+    >
       <Bio selection={partner} setSelection={setPartner} main={false} />
-    </>
+    </Show>
   );
 };
 
