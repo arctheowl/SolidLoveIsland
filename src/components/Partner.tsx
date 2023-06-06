@@ -21,15 +21,7 @@ const Partner = (props: Props) => {
     });
   });
   return (
-    <Show
-      when={partner() != ""}
-      fallback={
-        <div>
-          <h1>SINGLE MINGLE</h1>
-          <BsHeartbreakFill />
-        </div>
-      }
-    >
+    <Show when={partner() != ""}>
       <Bio selection={partner} setSelection={setPartner} main={false} />
     </Show>
   );

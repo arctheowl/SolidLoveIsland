@@ -18,6 +18,10 @@
     "stack": "Total",
     "data": [
       {
+        "partner": "-",
+        "length": 1
+      },
+      {
         "partner": "Catherine",
         "length": 2
       }
@@ -59,6 +63,19 @@
       {
         "partner": "Ella",
         "length": 2
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  },
+  {
+    "name": "Zachariah",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Catherine",
+        "length": 1
       }
     ],
     "smooth": true,
