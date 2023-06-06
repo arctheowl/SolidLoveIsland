@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Mitchel",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-love-island_6172975.jpg?20230530095446",
+        "age": 26,
+        "gender": "guy",
+        "socials": {
+            "insta": "https://www.instagram.com/mitcheltaylor_/",
+            "tiktok": "https://www.tiktok.com/@mitchtaylor_12"
+        },
+        "facts": [
+            "Nothing Interesting"
+        ],
+        "quotes": [
+            "I thrive on being a gentleman",
+            "I’ll shower you with flowers, I’ll take you on dates, I’ll fill your bedside drawer with your favourite sweets and chocolate. I’ve been single, I’ve had my fun and now I want to settle down."
+        ],
+        "job": "Gas Engineer",
+        "from": "Sheffield"
+    },
+    {
+        "name": "Mehdi",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172974.jpg?20230530095407",
+        "age": 26,
+        "gender": "guy",
+        "socials": {
+            "insta": "https://www.instagram.com/mehdiedno/"
+        },
+        "facts": [
+            "The Most French man in the world"
+        ],
+        "quotes": [
+            "I’ve been busy for the last few years with work and doing my Master’s degree but now I’m done with the busy schedule, and ready to find love."
+        ],
+        "job": "Commercial real estate agent",
+        "from": "Bordeaux and London"
+    },
+    {
+        "name": "Andre",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-love_6172972.jpg?20230530095233",
+        "age": 21,
+        "gender": "guy",
+        "socials": {
+            "insta": "https://www.instagram.com/dre.furtado/"
+        },
+        "facts": [
+            "Youngest in the Villa"
+        ],
+        "quotes": [
+            "I’m going to teach the other Islanders Portuguese, Spanish and a little bit of Creole. I think I’ve got every slice of the pie"
+        ],
+        "job": "Economics Graduate and Clothing Entrepreneur",
+        "from": "Unknown"
+    },
+    {
+        "name": "Tyrique",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-love-island-2023_6172976.jpg?20230530095517",
+        "age": 24,
+        "gender": "guy",
+        "socials": {
+            "insta": "https://www.instagram.com/tyriquehyde/",
+            "twitter": "https://twitter.com/TyriqueHyde"
+        },
+        "facts": [
+            "Deaf in right ear"
+        ],
+        "quotes": [
+            "I’ll bring vibes, confidence, good energy and honesty. I don’t sit on the fence – if I have an opinion I will speak up. I’m also not afraid to go after what I want."
+        ],
+        "job": "Semi-pro Footballer",
+        "from": "Essex"
+    },
+    {
+        "name": "George",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172973.jpg?20230530095322",
+        "age": 24,
+        "gender": "guy",
+        "socials": {
+            "insta": "https://www.instagram.com/georgefensom/",
+            "tiktok": "https://www.tiktok.com/@georgefensom"
+        },
+        "facts": [
+            "Probably Abusive"
+        ],
+        "quotes": [
+            "My go-to dance move is what I call the ‘Dad Dance’. I’m gonna bring dad jokes and dad dancing to the villa."
+        ],
+        "job": "Business Development Executive",
+        "from": "Bedford"
+    },
+    {
+        "name": "Ruchee",
+        "gender": "girl",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172969.jpg?20230530094914",
+        "age": 24,
+        "facts": [],
+        "socials": {
+            "insta": "https://www.instagram.com/rucheewawo/"
+        },
+        "quotes": [
+            "I’m a relationship kind of girl, but so far it’s not worked out for me. I’m looking forward to hopefully finding the right person in the villa."
+        ],
+        "job": "Beautician",
+        "from": "Sutton, London"
+    },
+    {
+        "name": "Catherine",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172958.jpg?20230530094611",
+        "age": 22,
+        "gender": "girl",
+        "socials": {
+            "insta": "https://www.instagram.com/catherine_agbaje/",
+            "tiktok": "https://www.tiktok.com/@catherineagbaje"
+        },
+        "facts": [
+            "She Has Two Degrees: Undergrad and Masters in Psychology and Sociology and Real Estate.",
+            "Youngest Girl in the Villa"
+        ],
+        "quotes": [],
+        "job": "Commercial real estate agent",
+        "from": "Dublin"
+    },
+    {
+        "name": "Ella",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172959.jpg?20230530094654",
+        "age": 23,
+        "gender": "girl",
+        "socials": {
+            "insta": "https://www.instagram.com/ellathomas_/",
+            "tiktok": "https://www.tiktok.com/@3llathomas"
+        },
+        "facts": [
+            "I’ve been in a Headie One and Burna Boy music video and I was once an extra in World War Z. I was 12 years old when I filmed it and got to meet Brad Pitt which was cool."
+        ],
+        "quotes": [
+            "I’m the whole package. I know what I want in life and I’ve got a big heart. I’d let the boys know that I’m wifey material so don’t play with me!"
+        ],
+        "job": "Model",
+        "from": "Glasgow"
+    },
+    {
+        "name": "Jess",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172965.jpg?20230530094748",
+        "age": 22,
+        "gender": "girl",
+        "socials": {
+            "insta": "https://www.instagram.com/jesshardingox/",
+            "tiktok": "https://www.tiktok.com/@jesshardingox"
+        },
+        "facts": [
+            "Nothing Interesting"
+        ],
+        "quotes": [
+            "I’ve got quite a big personality and I’ve got a heart of gold. I can stand up for myself if I need to. I’m honest, and I love love. I’m also a really good girlfriend.",
+            "When a guy stunts for money, that’s an ick. Showing off all their designer clothes because most of the time they’re probably fake anyway!"
+        ],
+        "job": "Aesthetics Practitioner??",
+        "from": "London"
+    },
+    {
+        "name": "Molly",
+        "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172968.jpg?20230530094827",
+        "age": 24,
+        "gender": "girl",
+        "socials": {
+            "insta": "https://www.instagram.com/mollygracemarsh/",
+            "tiktok": "https://www.tiktok.com/@_mollymarsh_/"
+        },
+        "facts": [
+            "the 24-year-old actress daughter of Coronation Street star Janet Marsh"
+        ],
+        "quotes": [
+            "I don’t go out and party and I don’t use dating apps. I’m actually quite old fashioned, so there’s no better way to meet someone than by going into a villa in the sun with the potential ‘one’ in there."
+        ],
+        "job": "Actress",
+        "from": "Manchester"
+    }
+]

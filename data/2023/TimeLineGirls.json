@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Molly",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Mitchel",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#9a60b4"
+  },
+  {
+    "name": "Catherine",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Andre",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#fc8452"
+  },
+  {
+    "name": "Jess",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "George",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#ee6666"
+  },
+  {
+    "name": "Ruchee",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Mehdi",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  },
+  {
+    "name": "Ella",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Tyrique",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  }
+]
