@@ -24,38 +24,55 @@ const Bio = (props: Props) => {
                   }`}
                   src={contestant.image}
                 />
-                <h1 class="text-2xl font-bold">{contestant.name}</h1>
-                <h2 class="text-xl font-bold">Age: {contestant.age}</h2>
-                <h2 class="text-xl font-bold">{contestant.job}</h2>
-                <h2 class="text-xl font-bold">From: {contestant.from}</h2>
-                <div class="flex gap-5 ">
-                  <Show when={contestant?.socials?.insta}>
-                    <a
-                      class="text-2xl font-bold"
-                      target="_blank"
-                      href={contestant?.socials?.insta}
-                    >
-                      <FaBrandsInstagram size={38} color="#FFFFFF" />
-                    </a>
-                  </Show>
-                  <Show when={contestant?.socials?.tiktok}>
-                    <a
-                      class="text-2xl font-bold"
-                      target="_blank"
-                      href={contestant?.socials?.tiktok}
-                    >
-                      <FaBrandsTiktok size={38} />
-                    </a>
-                  </Show>
-                  <Show when={contestant?.socials?.twitter}>
-                    <a
-                      class="text-2xl font-bold"
-                      target="_blank"
-                      href={contestant?.socials?.twitter}
-                    >
-                      <AiOutlineTwitter size={38} />
-                    </a>
-                  </Show>
+                <div class="md:grid md:grid-cols-2 md:gap-2">
+                  <div class="flex-col">
+                    <h1 class="text-2xl font-bold">{contestant.name}</h1>
+                    <h2 class="text-xl font-bold">Age: {contestant.age}</h2>
+                    <h2 class="text-xl font-bold">{contestant.job}</h2>
+                    <h2 class="text-xl font-bold">From: {contestant.from}</h2>
+                    <div class="flex gap-5 ">
+                      <Show when={contestant?.socials?.insta}>
+                        <a
+                          class="text-2xl font-bold"
+                          target="_blank"
+                          href={contestant?.socials?.insta}
+                        >
+                          <FaBrandsInstagram size={38} color="#FFFFFF" />
+                        </a>
+                      </Show>
+                      <Show when={contestant?.socials?.tiktok}>
+                        <a
+                          class="text-2xl font-bold"
+                          target="_blank"
+                          href={contestant?.socials?.tiktok}
+                        >
+                          <FaBrandsTiktok size={38} />
+                        </a>
+                      </Show>
+                      <Show when={contestant?.socials?.twitter}>
+                        <a
+                          class="text-2xl font-bold"
+                          target="_blank"
+                          href={contestant?.socials?.twitter}
+                        >
+                          <AiOutlineTwitter size={38} />
+                        </a>
+                      </Show>
+                    </div>
+                  </div>
+                  <div>
+                    <Show when={contestant?.quotes?.length > 0}>
+                      <h2 class="text-xl font-bold mt-10 md:mt-0">
+                        "
+                        {
+                          contestant.quotes[
+                            Math.floor(Math.random() * contestant.quotes.length)
+                          ]
+                        }
+                        "
+                      </h2>
+                    </Show>
+                  </div>
                 </div>
               </div>
             );
