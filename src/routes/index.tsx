@@ -7,12 +7,11 @@ import TimeLineBoys from "/data/2023/TimeLineBoys.json";
 import TimeLineGirls from "/data/2023/TimeLineGirls.json";
 import Middle from "~/components/Middle";
 import Landing from "~/components/Landing";
+import PastPartners from "~/components/PastPartners";
 
 export default function Home() {
   const [selection, setSelection] = createSignal("Select Contestant");
-  createEffect(() => {
-    console.log(selection());
-  });
+
   return (
     <main class="text-gray-700 bg-[#fdf5df] h-screen flex flex-col justify-center align-middle items-center">
       <Show when={selection() == "Select Contestant"}>
@@ -37,6 +36,7 @@ export default function Home() {
           <Bio selection={selection} setSelection={setSelection} main={true} />
           <Middle selection={selection} />
           <Partner selection={selection} setSelection={setSelection} />
+          <PastPartners selection={selection} />
         </div>
       </Show>
     </main>
