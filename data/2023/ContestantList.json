@@ -176,5 +176,23 @@
     ],
     "job": "Actress",
     "from": "Manchester"
+  },
+  {
+    "name": "Whitney",
+    "image": "https://e3.365dm.com/23/05/2048x1152/skynews-love-island-2023-love_6172968.jpg?20230530094827",
+    "age": 25,
+    "gender": "girl",
+    "socials": {
+      "insta": "https://www.instagram.com/mollygracemarsh/",
+      "tiktok": "https://www.tiktok.com/@_mollymarsh_/"
+    },
+    "facts": [
+      
+    ],
+    "quotes": [
+      "If your man can be stolen, was he really your man."
+    ],
+    "job": "",
+    "from": "Camden"
   }
 ]

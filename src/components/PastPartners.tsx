@@ -8,9 +8,17 @@ type Props = {
   selection: () => string;
 };
 
+type Partner = {
+  partner: string;
+  length: number;
+};
+
 const Partner = (props: Props) => {
   const [gender, setGender] = createSignal("");
-  const [pastPartners, setPastPartners] = createStore([]);
+  const [pastPartners, setPastPartners] = createStore<[Partner]>([
+    { partner: "", length: 0 },
+  ]);
+
   createEffect(() => {
     setGender("");
     ContesetantData?.map((contestant: any) => {
@@ -18,44 +26,35 @@ const Partner = (props: Props) => {
         setGender(contestant.gender);
       }
     });
+    switch (gender()) {
+      case "guy":
+        Boysdata?.map((contestant: any) => {
+          if (contestant?.name == props?.selection()) {
+            setPastPartners(contestant?.data);
+          }
+        });
+      case "girl":
+        Girlsdata?.map((contestant: any) => {
+          if (contestant?.name == props?.selection()) {
+            setPastPartners(contestant?.data);
+          }
+        });
+    }
   });
 
-  if (gender() == "guy") {
-    Boysdata?.map((contestant: any) => {
-      if (contestant?.name == props?.selection()) {
-        contestant?.data?.map((partner: any) => {
-          console.log(partner?.partner);
-          setPastPartners([
-            { partner: partner?.partner, length: partner?.length },
-          ]);
-        });
-      }
-    });
-  }
-
-  if (gender() == "girl") {
-    Girlsdata?.map((contestant: any) => {
-      if (contestant?.name == props?.selection()) {
-        contestant?.data?.map((partner: any) => {
-          console.log(partner?.partner);
-        });
-      }
-    });
-  }
-
-  console.log(pastPartners[0]);
+  console.log(pastPartners);
   return (
     <table>
       <tbody>
-        <tr>
-          <th>Person 1</th>
-          <th>Person 2</th>
+        <tr class="border-2 p-2">
+          <th class="border-2 p-2">Past Partner</th>
+          <th class="border-2 p-2">Days Together</th>
         </tr>
         <For each={pastPartners}>
           {(pastPartner, i) => (
-            <tr>
-              <td>{pastPartner.partner}</td>
-              <td>{pastPartner.length}</td>
+            <tr class="border-2 p-2">
+              <td class="border-2 p-2">{pastPartner.partner}</td>
+              <td class="border-2 p-2">{pastPartner.length}</td>
             </tr>
           )}
         </For>

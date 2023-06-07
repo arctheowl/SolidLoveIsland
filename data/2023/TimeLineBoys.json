@@ -6,7 +6,7 @@
     "data": [
       {
         "partner": "Molly",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
@@ -18,12 +18,12 @@
     "stack": "Total",
     "data": [
       {
-        "partner": "-",
-        "length": 1
+        "partner": "Single",
+        "length": 2
       },
       {
         "partner": "Catherine",
-        "length": 2
+        "length": 1
       }
     ],
     "smooth": true,
@@ -36,7 +36,7 @@
     "data": [
       {
         "partner": "Molly",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
@@ -49,7 +49,7 @@
     "data": [
       {
         "partner": "Ruchee",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
@@ -62,7 +62,7 @@
     "data": [
       {
         "partner": "Ella",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
@@ -75,6 +75,10 @@
     "data": [
       {
         "partner": "Catherine",
+        "length": 2
+      },
+      {
+        "partner": "Single",
         "length": 1
       }
     ],

@@ -6,7 +6,7 @@
     "data": [
       {
         "partner": "Mitchel",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
@@ -18,8 +18,12 @@
     "stack": "Total",
     "data": [
       {
-        "partner": "Andre",
+        "partner": "Zachariah",
         "length": 2
+      },
+      {
+        "partner": "Andre",
+        "length": 1
       }
     ],
     "smooth": true,
@@ -32,7 +36,7 @@
     "data": [
       {
         "partner": "George",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
@@ -45,7 +49,7 @@
     "data": [
       {
         "partner": "Mehdi",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
@@ -58,7 +62,7 @@
     "data": [
       {
         "partner": "Tyrique",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
