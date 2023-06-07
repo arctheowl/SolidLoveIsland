@@ -1,4 +1,4 @@
-import { Show } from "solid-js";
+import { createSignal, Show } from "solid-js";
 import data from "/data/2023/ContestantList.json";
 import { AiOutlineTwitter } from "solid-icons/ai";
 import { FaBrandsTiktok, FaBrandsInstagram } from "solid-icons/fa";
@@ -10,20 +10,30 @@ type Props = {
 };
 
 const Bio = (props: Props) => {
+  const [image, setImage] = createSignal("");
   if (props.main == true) {
     return (
       <>
         {data.map((contestant: any) => {
           if (contestant.name == props.selection()) {
+            console.log(contestant.image);
+            setImage(contestant.image);
             return (
               <div class="border-4 md:w-[40%] rounded-md md:absolute md:top-10 md:left-10 p-4 bg-[#fdf5df]">
                 <h1 class="text-2xl font-bold text-center">Contestant</h1>
-                <img
-                  class={`rounded-lg border-2 p-1  block ${
+                <div
+                  class={`rounded-lg border-2 p-1 h-96 overflow-clip flex ${
                     contestant.gender == "guy" ? "bg-[#5ebec4]" : "bg-[#f92c85]"
                   }`}
-                  src={contestant.image}
-                />
+                >
+                  {/* <img class={`rounded-lg`} src={contestant.image} /> */}
+                  <div
+                    class={` bg-center bg-cover bg-[url(${contestant.image})] h-full w-full`}
+                  >
+                    helo
+                  </div>
+                </div>
+
                 <div class="md:grid md:grid-cols-2 md:gap-2">
                   <div class="flex-col">
                     <h1 class="text-2xl font-bold">{contestant.name}</h1>
