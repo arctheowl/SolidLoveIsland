@@ -44,12 +44,12 @@ const Partner = (props: Props) => {
 
   console.log(pastPartners);
   return (
-    <div class="w-screen">
-      <table>
+    <div class="w-screen ">
+      <table class="mx-auto">
         <tbody>
           <tr class="border-2 p-2">
-            <th class="border-2 p-2 w-52">Past Partner</th>
-            <th class="border-2 p-2 w-52">Days Together</th>
+            <th class="border-2 p-2 w-44">Past Partner</th>
+            <th class="border-2 p-2  w-32">Days Together</th>
           </tr>
           <For each={pastPartners}>
             {(pastPartner, i) => (
