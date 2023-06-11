@@ -17,7 +17,7 @@ const Facts = (props: Props) => {
   });
 
   return (
-    <div class="">
+    <div class="pt-5">
       <Show when={facts().length > 0}>
         <div class="border-4 rounded-md p-4">
           <h1 class="text-2xl font-bold text-center"> Fun Facts</h1>

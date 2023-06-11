@@ -47,8 +47,12 @@ export default function Home() {
               <div class="md:col-span-5">
                 <Partner selection={selection} setSelection={setSelection} />
               </div>
-              <PastPartners selection={selection} />
-              <Facts selection={selection} />
+              <div class="md:col-span-5 pt-5">
+                <PastPartners selection={selection} />
+              </div>
+              <div class="md:col-span-5 pt-5">
+                <Facts selection={selection} />
+              </div>
             </>
           </Show>
         </div>
