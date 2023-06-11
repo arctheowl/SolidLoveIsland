@@ -44,21 +44,25 @@ const Partner = (props: Props) => {
 
   console.log(pastPartners);
   return (
-    <div class="mx-auto md:col-span-2">
+    <div class="mx-auto md:col-span-2 w-screen md:w-full">
       <h1 class="text-2xl font-bold text-center"> Past Partners</h1>
       <table class="">
         <tbody class="">
           <tr class="border-2">
-            <th class="border-2 p-5">Past Partner</th>
-            <th class="border-2 p-5 ">Days Together</th>
+            <th class="border-2 p-5 text-xl font-bold text-center w-1/2">
+              Past Partner
+            </th>
+            <th class="border-2 p-5 text-xl font-bold text-center w-1/2">
+              Days Together
+            </th>
           </tr>
           <For each={pastPartners}>
             {(pastPartner, i) => (
               <tr class="border-2">
-                <td class="border-2 p-5 text-xl font-bold text-center">
+                <td class="border-2 p-5 text-lg font-bold text-center">
                   {pastPartner.partner}
                 </td>
-                <td class="border-2 p-5 text-xl font-bold text-center">
+                <td class="border-2 p-5 text-lg font-bold text-center">
                   {pastPartner.length}
                 </td>
               </tr>
