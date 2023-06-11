@@ -7,6 +7,7 @@ import Landing from "~/components/Landing";
 import PastPartners from "~/components/PastPartners";
 import InstaFollowers from "~/components/InstaFollowers";
 import Dumped from "~/components/Dumped";
+import Facts from "~/components/Facts";
 
 export default function Home() {
   const [selection, setSelection] = createSignal("Select Contestant");
@@ -56,6 +57,7 @@ export default function Home() {
                 <Partner selection={selection} setSelection={setSelection} />
               </div>
               <PastPartners selection={selection} />
+              <Facts selection={selection} />
             </>
           </Show>
         </div>
