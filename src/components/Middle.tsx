@@ -47,9 +47,9 @@ const Middle = (props: Props) => {
         when={inCouple()}
         fallback={
           <div>
-            <h1>SINGLE READY TO MINGLE</h1>
             <h1 class="text-2xl font-bold text-center">
-              Single for {length() > 1 ? `${length()} Days` : `${length()} Day`}
+              Has Been Single for{" "}
+              {length() > 1 ? `${length()} Days` : `${length()} Day`}
             </h1>
           </div>
         }

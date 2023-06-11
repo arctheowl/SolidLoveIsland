@@ -8,7 +8,7 @@ type Props = {
 
 const Landing = (props: Props) => {
   return (
-    <div class="bg-red-200 h-screen w-screen items-center flex flex-col">
+    <div class="bg-red-200 h-screen w-screen items-center flex flex-col justify-center">
       <h1 class="text-2xl font-bold text-center"> Love Island Tracker</h1>
       <div class=" ">
         <select
