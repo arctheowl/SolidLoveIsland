@@ -17,13 +17,13 @@ const Facts = (props: Props) => {
   });
 
   return (
-    <div class="pt-5">
+    <div class="w-full">
       <Show when={facts().length > 0}>
         <div class="border-4 rounded-md p-4">
           <h1 class="text-2xl font-bold text-center"> Fun Facts</h1>
           <For each={facts()}>
             {(fact: string, i) => (
-              <div class="text-center">
+              <div class="">
                 <p class="text-xl font-bold">
                   {i() + 1}) {fact}
                 </p>
