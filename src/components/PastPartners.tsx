@@ -21,7 +21,6 @@ const Partner = (props: Props) => {
 
   createEffect(() => {
     setGender("");
-    setPastPartners([{ partner: "", length: 0 }]);
     ContesetantData?.map((contestant: any) => {
       if (contestant?.name == props?.selection()) {
         setGender(contestant.gender);
@@ -45,12 +44,12 @@ const Partner = (props: Props) => {
 
   console.log(pastPartners);
   return (
-    <div class=" pt-5">
+    <div class="w-screen ">
       <table class="mx-auto">
         <tbody>
-          <tr class="border-2 p-2 w-screen">
-            <th class="border-2 p-2">Past Partner</th>
-            <th class="border-2 p-2 ">Days Together</th>
+          <tr class="border-2 p-2">
+            <th class="border-2 p-2 w-44">Past Partner</th>
+            <th class="border-2 p-2  w-32">Days Together</th>
           </tr>
           <For each={pastPartners}>
             {(pastPartner, i) => (
