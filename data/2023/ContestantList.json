@@ -23,6 +23,7 @@
       "insta": "https://www.instagram.com/mitcheltaylor_/",
       "tiktok": "https://www.tiktok.com/@mitchtaylor_12"
     },
+    "instaFollowCount": 2212,
     "facts": [
       "Little Spoon Enjoyer"
     ],
@@ -41,6 +42,7 @@
     "socials": {
       "insta": "https://www.instagram.com/mehdiedno/"
     },
+    "instaFollowCount": 603,
     "facts": [
       "The Most French man in the world"
     ],
@@ -58,6 +60,7 @@
     "socials": {
       "insta": "https://www.instagram.com/dre.furtado/"
     },
+    "instaFollowCount": 2343,
     "facts": [
       "Youngest in the Villa"
     ],
@@ -76,6 +79,7 @@
       "insta": "https://www.instagram.com/tyriquehyde/",
       "twitter": "https://twitter.com/TyriqueHyde"
     },
+    "instaFollowCount": 10700,
     "facts": [
       "Deaf in right ear"
     ],
@@ -94,6 +98,7 @@
       "insta": "https://www.instagram.com/georgefensom/",
       "tiktok": "https://www.tiktok.com/@georgefensom"
     },
+    "instaFollowCount": 1274,
     "facts": [
       "Probably Abusive"
     ],
@@ -113,6 +118,7 @@
     "socials": {
       "insta": "https://www.instagram.com/rucheewawo/"
     },
+    "instaFollowCount": 5272,
     "quotes": [
       "I’m a relationship kind of girl, but so far it’s not worked out for me. I’m looking forward to hopefully finding the right person in the villa."
     ],
@@ -128,6 +134,7 @@
       "insta": "https://www.instagram.com/catherine_agbaje/",
       "tiktok": "https://www.tiktok.com/@catherineagbaje"
     },
+    "instaFollowCount": 3904,
     "facts": [
       "She Has Two Degrees: Undergrad and Masters in Psychology and Sociology and Real Estate.",
       "Youngest Girl in the Villa"
@@ -145,6 +152,7 @@
       "insta": "https://www.instagram.com/ellathomas_/",
       "tiktok": "https://www.tiktok.com/@3llathomas"
     },
+    "instaFollowCount": 5989,
     "facts": [
       "I’ve been in a Headie One and Burna Boy music video and I was once an extra in World War Z. I was 12 years old when I filmed it and got to meet Brad Pitt which was cool."
     ],
@@ -163,6 +171,7 @@
       "insta": "https://www.instagram.com/jesshardingox/",
       "tiktok": "https://www.tiktok.com/@jesshardingox"
     },
+    "instaFollowCount": 25900,
     "facts": [
       "Nothing Interesting"
     ],
@@ -182,6 +191,7 @@
       "insta": "https://www.instagram.com/mollygracemarsh/",
       "tiktok": "https://www.tiktok.com/@_mollymarsh_/"
     },
+    "instaFollowCount": 28000,
     "facts": [
       "the 24-year-old actress daughter of Coronation Street star Janet Marsh"
     ],
@@ -206,5 +216,20 @@
     ],
     "job": "",
     "from": "Camden"
+  },
+  {
+    "name": "Sammy",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/3/2023/06/Sammy-Root-1266162.jpg?quality=90&webp=true&fit=975,649",
+    "age": 22,
+    "gender": "guy",
+    "socials": {
+      "insta": "https://www.instagram.com/sammyroot_/"
+    },
+    "facts": [],
+    "quotes": [
+      "I’ve always got girls on my mind, so what better way to find a nice girl than in the Love Island villa!"
+    ],
+    "job": "Project Manager",
+    "from": "Kent"
   }
 ]

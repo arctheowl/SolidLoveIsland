@@ -1,7 +1,6 @@
 import { createEffect, createSignal, Show } from "solid-js";
 import data from "/data/2023/CurrentCouples.json";
 import Bio from "./Bio";
-import { BsHeartbreakFill } from "solid-icons/bs";
 
 type Props = {
   selection: () => string;

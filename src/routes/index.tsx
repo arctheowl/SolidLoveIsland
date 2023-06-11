@@ -2,12 +2,10 @@ import { Show, createEffect, createSignal, For } from "solid-js";
 import data from "/data/2023/ContestantList.json";
 import Bio from "~/components/Bio";
 import Partner from "~/components/Partner";
-
-import TimeLineBoys from "/data/2023/TimeLineBoys.json";
-import TimeLineGirls from "/data/2023/TimeLineGirls.json";
 import Middle from "~/components/Middle";
 import Landing from "~/components/Landing";
 import PastPartners from "~/components/PastPartners";
+import InstaFollowers from "~/components/InstaFollowers";
 
 export default function Home() {
   const [selection, setSelection] = createSignal("Select Contestant");
@@ -18,8 +16,8 @@ export default function Home() {
         <Landing selection={selection} setSelection={setSelection} />
       </Show>
       <Show when={selection() != "Select Contestant"}>
-        <div class="flex flex-col items-center h-screen p-4">
-          <div class="flex gap-5">
+        <div class="flex flex-col items-center h-screen w-screen p-4 md:grid md:grid-cols-12 md:gap-0">
+          <div class="flex gap-5 md:col-span-12 md:mx-auto">
             <label class="pt-1">Select Contestant</label>
             <select
               class={`w-24 rounded-3xl border-2 p-1 bg-[#5ebec4] mx-auto text-center`}
@@ -32,11 +30,20 @@ export default function Home() {
               </For>
             </select>
           </div>
+          <div class="md:col-span-5">
+            <Bio
+              selection={selection}
+              setSelection={setSelection}
+              main={true}
+            />
+          </div>
 
-          <Bio selection={selection} setSelection={setSelection} main={true} />
           <Middle selection={selection} />
-          <Partner selection={selection} setSelection={setSelection} />
+          <div class="md:col-span-5">
+            <Partner selection={selection} setSelection={setSelection} />
+          </div>
           <PastPartners selection={selection} />
+          {/* <InstaFollowers selection={selection} /> */}
         </div>
       </Show>
     </main>

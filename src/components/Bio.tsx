@@ -16,10 +16,10 @@ const Bio = (props: Props) => {
         {data.map((contestant: any) => {
           if (contestant.name == props.selection()) {
             return (
-              <div class="border-4 md:w-[40%] rounded-md md:absolute md:top-10 md:left-10 p-4 bg-[#fdf5df]">
+              <div class="border-4 rounded-md p-4 bg-[#fdf5df]">
                 <h1 class="text-2xl font-bold text-center">Contestant</h1>
                 <img
-                  class={`rounded-lg border-2 p-1  block ${
+                  class={`rounded-lg border-2 p-1 ${
                     contestant.gender == "guy" ? "bg-[#5ebec4]" : "bg-[#f92c85]"
                   }`}
                   src={contestant.image}
@@ -86,7 +86,7 @@ const Bio = (props: Props) => {
         {data.map((contestant: any) => {
           if (contestant.name == props.selection()) {
             return (
-              <div class="border-4 md:w-[40%] rounded-md md:absolute md:top-10 md:right-10 p-4 bg-[#fdf5df]">
+              <div class="border-4 rounded-md p-4 bg-[#fdf5df]">
                 <h1 class="text-2xl font-bold text-center">Current Partner</h1>
                 <img
                   class={`rounded-lg border-2 p-1  block ${
@@ -137,3 +137,5 @@ const Bio = (props: Props) => {
 };
 
 export default Bio;
+
+// IMAGES FOR COntestants https://www.radiotimes.com/tv/entertainment/reality-tv/love-island-summer-2023-cast-line-up/
