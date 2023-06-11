@@ -84,5 +84,18 @@
     ],
     "smooth": true,
     "color": "#91cc75"
+  },
+  {
+    "name": "Sammy",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Single",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
   }
 ]

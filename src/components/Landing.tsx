@@ -1,5 +1,4 @@
-import { For } from "solid-js";
-import data from "/data/2023/ContestantList.json";
+import Selection from "./Selection";
 
 type Props = {
   selection: () => string;
@@ -13,18 +12,10 @@ const Landing = (props: Props) => {
         <h1 class="text-7xl font-extrabold text-center from-[#F42D69] bg-gradient-to-r to-[#FF8A00] text-transparent bg-clip-text pb-10">
           Love Island Tracker
         </h1>
-        <select
-          class="rounded-full border-2 p-3 bg-[#5ebec4] mx-auto block "
-          onChange={(e) => props.setSelection(e.target.value)}
-          value={props.selection()}
-        >
-          <option selected disabled>
-            Select Contestant
-          </option>
-          <For each={data}>
-            {(contestant) => <option>{contestant.name}</option>}
-          </For>
-        </select>
+        <Selection
+          selection={props.selection}
+          setSelection={props.setSelection}
+        />
       </div>
     </div>
   );

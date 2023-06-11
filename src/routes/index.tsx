@@ -8,6 +8,7 @@ import PastPartners from "~/components/PastPartners";
 import InstaFollowers from "~/components/InstaFollowers";
 import Dumped from "~/components/Dumped";
 import Facts from "~/components/Facts";
+import Selection from "~/components/Selection";
 
 export default function Home() {
   const [selection, setSelection] = createSignal("Select Contestant");
@@ -20,17 +21,7 @@ export default function Home() {
       <Show when={selection() != "Select Contestant"}>
         <div class="flex flex-col items-center h-screen w-screen p-4 md:grid md:grid-cols-12 md:gap-0">
           <div class="flex gap-5 md:col-span-12 md:mx-auto">
-            <label class="pt-1">Select Contestant</label>
-            <select
-              class={`w-24 rounded-3xl border-2 p-1 bg-[#5ebec4] mx-auto text-center`}
-              onChange={(e) => setSelection(e.target.value)}
-              value={selection()}
-              // placeholder should say "Select Contestant"
-            >
-              <For each={data}>
-                {(contestant: any) => <option>{contestant.name}</option>}
-              </For>
-            </select>
+            <Selection selection={selection} setSelection={setSelection} />
           </div>
           <Show
             when={data.find(
