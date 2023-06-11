@@ -17,18 +17,20 @@ const Facts = (props: Props) => {
   });
 
   return (
-    <div>
+    <div class="p-2">
       <Show when={facts().length > 0}>
-        <h1 class="text-2xl font-bold text-center"> Fun Facts</h1>
-        <For each={facts()}>
-          {(fact: string, i) => (
-            <div class="text-center">
-              <p class="text-xl font-bold">
-                {i() + 1}) {fact}
-              </p>
-            </div>
-          )}
-        </For>
+        <div class="border-4 rounded-md p-4">
+          <h1 class="text-2xl font-bold text-center"> Fun Facts</h1>
+          <For each={facts()}>
+            {(fact: string, i) => (
+              <div class="text-center">
+                <p class="text-xl font-bold">
+                  {i() + 1}) {fact}
+                </p>
+              </div>
+            )}
+          </For>
+        </div>
       </Show>
     </div>
   );
