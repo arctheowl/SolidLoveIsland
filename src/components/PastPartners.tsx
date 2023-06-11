@@ -44,7 +44,7 @@ const Partner = (props: Props) => {
 
   console.log(pastPartners);
   return (
-    <div class="mx-auto md:col-span-2 w-screen md:w-full">
+    <div class="mx-auto md:col-span-2 w-full">
       <h1 class="text-2xl font-bold text-center"> Past Partners</h1>
       <table class="">
         <tbody class="">
