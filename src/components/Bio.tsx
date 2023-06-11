@@ -5,12 +5,11 @@ import { FaBrandsTiktok, FaBrandsInstagram } from "solid-icons/fa";
 
 type Props = {
   selection: () => string;
-  setSelection: (selection: string) => void;
-  main: boolean;
+  main?: boolean;
 };
 
 const Bio = (props: Props) => {
-  if (props.main == true) {
+  if (props.main == true || props.main == undefined) {
     return (
       <>
         {data.map((contestant: any) => {

@@ -17,7 +17,6 @@ const Landing = (props: Props) => {
           class="rounded-full border-2 p-3 bg-[#5ebec4] mx-auto block "
           onChange={(e) => props.setSelection(e.target.value)}
           value={props.selection()}
-          // placeholder should say "Select Contestant"
         >
           <option selected disabled>
             Select Contestant

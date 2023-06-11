@@ -12,7 +12,9 @@
     ],
     "quotes": [],
     "job": "Personal Trainer",
-    "from": "South East London."
+    "from": "South East London.",
+    "dumped": false,
+    "added": 2
   },
   {
     "name": "Mitchel",
@@ -32,7 +34,9 @@
       "I’ll shower you with flowers, I’ll take you on dates, I’ll fill your bedside drawer with your favourite sweets and chocolate. I’ve been single, I’ve had my fun and now I want to settle down."
     ],
     "job": "Gas Engineer",
-    "from": "Sheffield"
+    "from": "Sheffield",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Mehdi",
@@ -50,7 +54,9 @@
       "I’ve been busy for the last few years with work and doing my Master’s degree but now I’m done with the busy schedule, and ready to find love."
     ],
     "job": "Commercial real estate agent",
-    "from": "Bordeaux and London"
+    "from": "Bordeaux and London",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Andre",
@@ -68,7 +74,9 @@
       "I’m going to teach the other Islanders Portuguese, Spanish and a little bit of Creole. I think I’ve got every slice of the pie"
     ],
     "job": "Economics Graduate and Clothing Entrepreneur",
-    "from": "Dudley"
+    "from": "Dudley",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Tyrique",
@@ -87,7 +95,9 @@
       "I’ll bring vibes, confidence, good energy and honesty. I don’t sit on the fence – if I have an opinion I will speak up. I’m also not afraid to go after what I want."
     ],
     "job": "Semi-pro Footballer",
-    "from": "Essex"
+    "from": "Essex",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "George",
@@ -107,7 +117,9 @@
       "On the outside I would levitate to a girl like you"
     ],
     "job": "Business Development Executive",
-    "from": "Bedford"
+    "from": "Bedford",
+    "dumped": true,
+    "added": 1
   },
   {
     "name": "Ruchee",
@@ -123,7 +135,9 @@
       "I’m a relationship kind of girl, but so far it’s not worked out for me. I’m looking forward to hopefully finding the right person in the villa."
     ],
     "job": "Beautician",
-    "from": "Sutton, London"
+    "from": "Sutton, London",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Catherine",
@@ -141,7 +155,9 @@
     ],
     "quotes": [],
     "job": "Commercial real estate agent",
-    "from": "Dublin"
+    "from": "Dublin",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Ella",
@@ -160,7 +176,9 @@
       "I’m the whole package. I know what I want in life and I’ve got a big heart. I’d let the boys know that I’m wifey material so don’t play with me!"
     ],
     "job": "Model",
-    "from": "Glasgow"
+    "from": "Glasgow",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Jess",
@@ -180,7 +198,9 @@
       "When a guy stunts for money, that’s an ick. Showing off all their designer clothes because most of the time they’re probably fake anyway!"
     ],
     "job": "Aesthetics Practitioner??",
-    "from": "London"
+    "from": "London",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Molly",
@@ -199,7 +219,9 @@
       "I don’t go out and party and I don’t use dating apps. I’m actually quite old fashioned, so there’s no better way to meet someone than by going into a villa in the sun with the potential ‘one’ in there."
     ],
     "job": "Actress",
-    "from": "Manchester"
+    "from": "Manchester",
+    "dumped": false,
+    "added": 1
   },
   {
     "name": "Whitney",
@@ -215,7 +237,9 @@
       "If your man can be stolen, was he really your man."
     ],
     "job": "",
-    "from": "Camden"
+    "from": "Camden",
+    "dumped": false,
+    "added": 2
   },
   {
     "name": "Sammy",
@@ -230,6 +254,8 @@
       "I’ve always got girls on my mind, so what better way to find a nice girl than in the Love Island villa!"
     ],
     "job": "Project Manager",
-    "from": "Kent"
+    "from": "Kent",
+    "dumped": false,
+    "added": 3
   }
 ]

@@ -6,6 +6,7 @@ import Middle from "~/components/Middle";
 import Landing from "~/components/Landing";
 import PastPartners from "~/components/PastPartners";
 import InstaFollowers from "~/components/InstaFollowers";
+import Dumped from "~/components/Dumped";
 
 export default function Home() {
   const [selection, setSelection] = createSignal("Select Contestant");
@@ -30,20 +31,33 @@ export default function Home() {
               </For>
             </select>
           </div>
-          <div class="md:col-span-5">
-            <Bio
-              selection={selection}
-              setSelection={setSelection}
-              main={true}
-            />
-          </div>
-
-          <Middle selection={selection} />
-          <div class="md:col-span-5">
-            <Partner selection={selection} setSelection={setSelection} />
-          </div>
-          <PastPartners selection={selection} />
-          {/* <InstaFollowers selection={selection} /> */}
+          <Show
+            when={data.find(
+              (contestant: any) =>
+                contestant.name == selection() && contestant.dumped == true
+            )}
+          >
+            <div class="col-span-12">
+              <Dumped selection={selection} />
+            </div>
+          </Show>
+          <Show
+            when={data.find(
+              (contestant: any) =>
+                contestant.name == selection() && contestant.dumped == false
+            )}
+          >
+            <>
+              <div class="md:col-span-5">
+                <Bio selection={selection} main={true} />
+              </div>
+              <Middle selection={selection} />
+              <div class="md:col-span-5">
+                <Partner selection={selection} setSelection={setSelection} />
+              </div>
+              <PastPartners selection={selection} />
+            </>
+          </Show>
         </div>
       </Show>
     </main>

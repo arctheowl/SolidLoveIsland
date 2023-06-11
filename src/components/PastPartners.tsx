@@ -21,6 +21,7 @@ const Partner = (props: Props) => {
 
   createEffect(() => {
     setGender("");
+    setPastPartners([{ partner: "", length: 0 }]);
     ContesetantData?.map((contestant: any) => {
       if (contestant?.name == props?.selection()) {
         setGender(contestant.gender);
