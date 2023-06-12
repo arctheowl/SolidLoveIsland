@@ -47,7 +47,7 @@ const Partner = (props: Props) => {
   return (
     <div class="mx-auto md:col-span-2 w-full border-4 rounded-lg p-2">
       <h1 class="text-2xl font-bold text-center"> Past Partners</h1>
-      <table class="">
+      <table class="md:mx-auto">
         <tbody class="">
           <tr class="border-2">
             <th class="border-2 p-5 text-xl font-bold text-center w-1/2">

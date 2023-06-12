@@ -21,22 +21,25 @@ const Dumped = (props: Props) => {
     });
   });
   return (
-    <div class="h-full w-full flex-col md:col-span-4">
-      <div class="md:w-[40%] md:-top-10">
-        <h1 class="md:text-7xl font-extrabold text-center bg-red-600 text-transparent bg-clip-text -rotate-45 relative md:top-96 top-52 text-4xl">
+    <div class="flex-col md:col-span-4 md:grid md:grid-cols-4">
+      <div class="md:col-span-2 md:row-span-2">
+        <h1 class="md:text-7xl font-extrabold text-center bg-red-600 text-transparent bg-clip-text -rotate-45 relative md:top-80 top-52 text-4xl">
           DUMPED
         </h1>
         <Bio selection={props.selection} />
       </div>
-      <div>
+      <div class="col-span-2 mt-14 md:p-4 pb-5">
         <PastPartners selection={props.selection} />
       </div>
-      <h1 class="text-2xl font-bold text-center">
-        Introduced in episode {added()}
-      </h1>
-      <h1 class="text-2xl font-bold text-center">
-        Dumped in episode {dumped()}
-      </h1>
+      <div class="flex-col col-span-2 gap-5 border-4 md:m-4 items-center flex my-auto md:p-10 rounded-lg">
+        <h1 class="text-2xl font-bold text-center">
+          Introduced in episode {added()}
+        </h1>
+        <h1 class="text-2xl font-bold text-center">Lasted {dumped() - added() + 1}</h1>
+        <h1 class="text-2xl font-bold text-center">
+          Dumped in episode {dumped()}
+        </h1>
+      </div>
     </div>
   );
 };

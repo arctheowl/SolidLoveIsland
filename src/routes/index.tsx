@@ -39,7 +39,7 @@ export default function Home() {
             <div class="md:col-span-5">
               <Partner selection={selection} setSelection={setSelection} />
             </div>
-            <div class="md:col-span-5 pt-2">
+            <div class="md:col-span-5 pt-2 w-full">
               <PastPartners selection={selection} />
             </div>
             <div class="md:col-span-5 pt-2 w-full">
