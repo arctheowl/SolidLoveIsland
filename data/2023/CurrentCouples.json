@@ -1,8 +1,26 @@
 [
-    { "name": "Mitchel", "partner": "Molly" },
-    { "name": "Mehdi", "partner": "Whitney" },
-    { "name": "Zachariah", "partner": "Catherine" },
-    { "name": "Tyrique", "partner": "Ella" },
-    { "name": "Sammy", "partner": "Jess" }
+    {
+        "name": "Mitchel",
+        "partner": "Molly"
+    },
+    {
+        "name": "Mehdi",
+        "partner": "Whitney"
+    },
+    {
+        "name": "Zachariah",
+        "partner": "Catherine"
+    },
+    {
+        "name": "Tyrique",
+        "partner": "Ella"
+    },
+    {
+        "name": "Sammy",
+        "partner": "Jess"
+    },
+    {
+        "name": "Andre",
+        "partner": "Ruchee"
+    }
 ]
-  
