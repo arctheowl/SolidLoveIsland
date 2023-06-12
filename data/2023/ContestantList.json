@@ -245,5 +245,39 @@
     "from": "Kent",
     "dumped": false,
     "added": 3
+  },
+  {
+    "name": "Leah",
+    "image": "",
+    "age": 27,
+    "gender": "girl",
+    "socials": {
+      "insta": ""
+    },
+    "facts": [],
+    "quotes": [
+      ""
+    ],
+    "job": "Business Owner",
+    "from": "Manchester",
+    "dumped": false,
+    "added": 7
+  },
+  {
+    "name": "Charlotte",
+    "image": "",
+    "age": 30,
+    "gender": "girl",
+    "socials": {
+      "insta": ""
+    },
+    "facts": [],
+    "quotes": [
+      ""
+    ],
+    "job": "Dental Nurse",
+    "from": "Bournemouth",
+    "dumped": false,
+    "added": 7
   }
 ]
