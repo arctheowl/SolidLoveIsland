@@ -14,7 +14,7 @@ export default function Home() {
   const [selection, setSelection] = createSignal("Select Contestant");
 
   return (
-    <main class="text-gray-700 bg-[#fdf5df] h-screen flex flex-col justify-center align-middle items-center">
+    <main class="text-gray-700 bg-[#fdf5df]">
       <Switch fallback={<div>404</div>}>
         <Match when={selection() == "Select Contestant"}>
           <Landing selection={selection} setSelection={setSelection} />
@@ -56,8 +56,8 @@ export default function Home() {
             )
           }
         >
-          <div class="flex flex-col items-center h-screen w-screen p-4">
-            <div class="flex gap-5 md:col-span-12 md:mx-auto">
+          <div class="flex flex-col items-center p-4 md:grid md:grid-cols-4">
+            <div class="md:col-span-4 md:mx-auto">
               <Selection selection={selection} setSelection={setSelection} />
             </div>
             <Dumped selection={selection} />

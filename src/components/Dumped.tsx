@@ -21,8 +21,8 @@ const Dumped = (props: Props) => {
     });
   });
   return (
-    <div class="h-full w-full flex-col md:flex">
-      <div class="md:w-[40%] relative md:-top-24">
+    <div class="h-full w-full flex-col md:col-span-4">
+      <div class="md:w-[40%] md:-top-10">
         <h1 class="md:text-7xl font-extrabold text-center bg-red-600 text-transparent bg-clip-text -rotate-45 relative md:top-96 top-52 text-4xl">
           DUMPED
         </h1>
