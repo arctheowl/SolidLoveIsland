@@ -3,5 +3,10 @@
         "name": "George",
         "intro": 1,
         "outro": 3
+    },
+    {
+        "name": "Ruchee",
+        "intro": 1,
+        "outro": 10
     }
 ]
