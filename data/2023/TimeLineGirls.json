@@ -6,7 +6,7 @@
     "data": [
       {
         "partner": "Mitchel",
-        "length": 7
+        "length": 8
       }
     ],
     "smooth": true,
@@ -17,6 +17,10 @@
     "type": "line",
     "stack": "Total",
     "data": [
+      {
+        "partner": "Andre",
+        "length": 1
+      },
       {
         "partner": "Zachariah",
         "length": 6
@@ -36,7 +40,7 @@
     "data": [
       {
         "partner": "Sammy",
-        "length": 2
+        "length": 3
       },
       {
         "partner": "George",
@@ -51,6 +55,10 @@
     "type": "line",
     "stack": "Total",
     "data": [
+      {
+        "partner": "Single",
+        "length": 1
+      },
       {
         "partner": "Andre",
         "length": 2
@@ -69,6 +77,10 @@
     "stack": "Total",
     "data": [
       {
+        "partner": "Single",
+        "length": 1
+      },
+      {
         "partner": "Tyrique",
         "length": 7
       }
@@ -83,11 +95,37 @@
     "data": [
       {
         "partner": "Mehdi",
-        "length": 2
+        "length": 3
       },
       {
         "partner": "Single",
         "length": 3
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  },
+  {
+    "name": "Leah",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Tyrique",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  },
+  {
+    "name": "Charlotte",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Zachariah",
+        "length": 1
       }
     ],
     "smooth": true,
