@@ -6,7 +6,7 @@
     "data": [
       {
         "partner": "Molly",
-        "length": 9
+        "length": 11
       }
     ],
     "smooth": true,
@@ -57,7 +57,7 @@
     "data": [
       {
         "partner": "Whitney",
-        "length": 4
+        "length": 7
       },
       {
         "partner": "Ruchee",
@@ -74,7 +74,7 @@
     "data": [
       {
         "partner": "Leah",
-        "length": 2
+        "length": 5
       },
       {
         "partner": "Ella",
@@ -89,9 +89,11 @@
     "type": "line",
     "stack": "Total",
     "data": [
+      { "partner": "Single",
+        "length": 2
       {
         "partner": "Chartlotte",
-        "length": 2
+        "length": 4
       },
       {
         "partner": "Catherine",
@@ -112,7 +114,7 @@
     "data": [
       {
         "partner": "Jess",
-        "length": 4
+        "length": 7
       },
       {
         "partner": "Single",
