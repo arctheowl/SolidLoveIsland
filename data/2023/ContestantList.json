@@ -79,7 +79,7 @@
     ],
     "job": "Economics Graduate and Clothing Entrepreneur",
     "from": "Dudley",
-    "dumped": false,
+    "dumped": true,
     "added": 1
   },
   {
@@ -296,7 +296,7 @@
     ],
     "job": "Dental Nurse",
     "from": "Bournemouth",
-    "dumped": false,
+    "dumped": true,
     "added": 7
   },
   {
