@@ -298,5 +298,22 @@
     "from": "Bournemouth",
     "dumped": false,
     "added": 7
+  },
+  {
+    "name": "Scott",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/3/2023/06/LoveIsland-s10-Scott-2-ee6aaad.jpg?quality=90&webp=true&fit=975,649",
+    "age": 22,
+    "gender": "guy",
+    "socials": {
+      "insta": "https://www.instagram.com/scottvds17/"
+    },
+    "facts": [],
+    "quotes": [
+      ""
+    ],
+    "job": "Footballer",
+    "from": "North Wales",
+    "dumped": false,
+    "added": 11
   }
 ]

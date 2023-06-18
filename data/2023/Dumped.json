@@ -2,11 +2,21 @@
     {
         "name": "George",
         "intro": 1,
-        "outro": 3
+        "outro": 5
     },
     {
         "name": "Ruchee",
         "intro": 1,
         "outro": 10
+    },
+    {
+        "name": "Andre",
+        "intro": 1,
+        "outro": 12
+    },
+    {
+        "name": "Charlotte",
+        "intro": 7,
+        "outro": 12
     }
 ]
