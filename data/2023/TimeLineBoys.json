@@ -5,6 +5,10 @@
     "stack": "Total",
     "data": [
       {
+        "partner": "Single",
+        "length": 1
+      },
+      {
         "partner": "Leah",
         "length": 4
       },
@@ -23,7 +27,7 @@
     "data": [
       {
         "partner": "Whitney",
-        "length": 11
+        "length": 12
       },
       {
         "partner": "Ruchee",
@@ -40,7 +44,7 @@
     "data": [
       {
         "partner": "Ella",
-        "length": 6
+        "length": 7
       },
       {
         "partner": "Leah",
@@ -61,7 +65,7 @@
     "data": [
       {
         "partner": "Molly",
-        "length": 4
+        "length": 5
       },
       {
         "partner": "Single",
@@ -89,6 +93,10 @@
     "stack": "Total",
     "data": [
       {
+        "partner": "Single",
+        "length": 1
+      },
+      {
         "partner": "Jess",
         "length": 11
       },
@@ -107,7 +115,7 @@
     "data": [
       {
         "partner": "Catherine",
-        "length": 4
+        "length": 5
       },
       {
         "partner": "Single",
