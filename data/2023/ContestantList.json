@@ -315,5 +315,39 @@
     "from": "North Wales",
     "dumped": false,
     "added": 11
+  },
+  {
+    "name": "Mal",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/3/2023/06/Mal-Nicol-3b2d8a2.jpg?quality=90&webp=true&resize=1750,1167",
+    "age": 25,
+    "gender": "girl",
+    "socials": {
+      "insta": "https://www.instagram.com/mallurpaal/?hl=en"
+    },
+    "facts": [],
+    "quotes": [
+      ""
+    ],
+    "job": "Picture Researcher",
+    "from": "Edinburgh",
+    "dumped": false,
+    "added": 16
+  },
+  {
+    "name": "Montel",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/3/2023/06/Montel-McKenzie-2dd7567.jpg?quality=90&webp=true&resize=1750,1167",
+    "age": 25,
+    "gender": "guy",
+    "socials": {
+      "insta": "https://www.instagram.com/montelmckenzie/"
+    },
+    "facts": [],
+    "quotes": [
+      ""
+    ],
+    "job": "Account Manager and semi-professional footballer",
+    "from": "East London",
+    "dumped": false,
+    "added": 16
   }
 ]
