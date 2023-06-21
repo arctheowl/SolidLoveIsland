@@ -5,6 +5,10 @@
     "stack": "Total",
     "data": [
       {
+        "partner": "Leah",
+        "length": 4
+      },
+      {
         "partner": "Molly",
         "length": 11
       }
@@ -13,51 +17,13 @@
     "color": "#9a60b4"
   },
   {
-    "name": "Andre",
-    "type": "line",
-    "stack": "Total",
-    "data": [
-      {
-        "partner": "Catherine",
-        "length": 5
-      },
-      {
-        "partner": "Ruchee",
-        "length": 2
-      },
-      {
-        "partner": "Single",
-        "length": 4
-      },
-      {
-        "partner": "Catherine",
-        "length": 1
-      }
-    ],
-    "smooth": true,
-    "color": "#fc8452"
-  },
-  {
-    "name": "George",
-    "type": "line",
-    "stack": "Total",
-    "data": [
-      {
-        "partner": "Molly",
-        "length": 3
-      }
-    ],
-    "smooth": true,
-    "color": "#ee6666"
-  },
-  {
     "name": "Mehdi",
     "type": "line",
     "stack": "Total",
     "data": [
       {
         "partner": "Whitney",
-        "length": 7
+        "length": 11
       },
       {
         "partner": "Ruchee",
@@ -72,6 +38,10 @@
     "type": "line",
     "stack": "Total",
     "data": [
+      {
+        "partner": "Ella",
+        "length": 4
+      },
       {
         "partner": "Leah",
         "length": 5
@@ -89,7 +59,12 @@
     "type": "line",
     "stack": "Total",
     "data": [
-      { "partner": "Single",
+      {
+        "partner": "Molly",
+        "length": 4
+      },
+      {
+        "partner": "Single",
         "length": 2
       },
       {
@@ -115,6 +90,23 @@
     "data": [
       {
         "partner": "Jess",
+        "length": 11
+      },
+      {
+        "partner": "Single",
+        "length": 2
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  },
+  {
+    "name": "Scott",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Catherine",
         "length": 7
       },
       {
@@ -124,5 +116,43 @@
     ],
     "smooth": true,
     "color": "#91cc75"
+  },
+  {
+    "name": "George",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Molly",
+        "length": 3
+      }
+    ],
+    "smooth": true,
+    "color": "#ee6666"
+  },
+  {
+    "name": "Andre",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Catherine",
+        "length": 5
+      },
+      {
+        "partner": "Ruchee",
+        "length": 2
+      },
+      {
+        "partner": "Single",
+        "length": 4
+      },
+      {
+        "partner": "Catherine",
+        "length": 1
+      }
+    ],
+    "smooth": true,
+    "color": "#fc8452"
   }
 ]
