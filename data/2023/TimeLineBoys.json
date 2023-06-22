@@ -5,8 +5,12 @@
     "stack": "Total",
     "data": [
       {
-        "partner": "Single",
+        "partner": "Jess",
         "length": 1
+      },
+      {
+        "partner": "Single",
+        "length": 2
       },
       {
         "partner": "Leah",
@@ -27,7 +31,7 @@
     "data": [
       {
         "partner": "Whitney",
-        "length": 12
+        "length": 14
       },
       {
         "partner": "Ruchee",
@@ -44,7 +48,7 @@
     "data": [
       {
         "partner": "Ella",
-        "length": 7
+        "length": 9
       },
       {
         "partner": "Leah",
@@ -65,7 +69,7 @@
     "data": [
       {
         "partner": "Molly",
-        "length": 5
+        "length": 7
       },
       {
         "partner": "Single",
@@ -93,8 +97,12 @@
     "stack": "Total",
     "data": [
       {
-        "partner": "Single",
+        "partner": "Mal",
         "length": 1
+      },
+      {
+        "partner": "Single",
+        "length": 2
       },
       {
         "partner": "Jess",
@@ -115,7 +123,24 @@
     "data": [
       {
         "partner": "Catherine",
-        "length": 5
+        "length": 7
+      },
+      {
+        "partner": "Single",
+        "length": 2
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  },
+  {
+    "name": "Montel",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Leah",
+        "length": 1
       },
       {
         "partner": "Single",
