@@ -6,7 +6,7 @@
     "data": [
       {
         "partner": "Zachariah",
-        "length": 7
+        "length": 8
       },
       {
         "partner": "Mitchel",
@@ -23,7 +23,7 @@
     "data": [
       {
         "partner": "Scott",
-        "length": 7
+        "length": 8
       },
       {
         "partner": "Single",
@@ -52,7 +52,7 @@
     "data": [
       {
         "partner": "Mitchel",
-        "length": 1
+        "length": 2
       },
       {
         "partner": "Single",
@@ -77,7 +77,7 @@
     "data": [
       {
         "partner": "Tyrique",
-        "length": 9
+        "length": 10
       },
       {
         "partner": "Single",
@@ -98,7 +98,7 @@
     "data": [
       {
         "partner": "Mehdi",
-        "length": 14
+        "length": 15
       },
       {
         "partner": "Single",
@@ -115,7 +115,7 @@
     "data": [
       {
         "partner": "Montel",
-        "length": 1
+        "length": 2
       },
       {
         "partner": "Single",
@@ -140,10 +140,23 @@
     "data": [
       {
         "partner": "Sammy",
-        "length": 1
+        "length": 2
       },
       {
         "partner": "Single",
+        "length": 2
+      }
+    ],
+    "smooth": true,
+    "color": "#91cc75"
+  },
+  {
+    "name": "Kady",
+    "type": "line",
+    "stack": "Total",
+    "data": [
+      {
+        "partner": "Zachariah",
         "length": 2
       }
     ],

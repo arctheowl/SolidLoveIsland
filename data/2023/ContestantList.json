@@ -227,7 +227,7 @@
     ],
     "job": "Actress",
     "from": "Manchester",
-    "dumped": false,
+    "dumped": true,
     "added": 1
   },
   {
@@ -349,5 +349,22 @@
     "from": "East London",
     "dumped": false,
     "added": 16
+  },
+  {
+    "name": "Kady",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/3/2023/06/loveislandsr10kadymcdermott-f579cbf.jpg?quality=90&webp=true&resize=1000,667",
+    "age": 27,
+    "gender": "girl",
+    "socials": {
+      "insta": "https://www.instagram.com/kadymcdermott/?hl=en"
+    },
+    "facts": [],
+    "quotes": [
+      ""
+    ],
+    "job": "",
+    "from": "Hertfordshire",
+    "dumped": false,
+    "added": 19
   }
 ]
