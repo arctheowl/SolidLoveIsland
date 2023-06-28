@@ -6,7 +6,7 @@
     "data": [
       {
         "partner": "Zachariah",
-        "length": 8
+        "length": 9
       },
       {
         "partner": "Mitchel",
@@ -23,7 +23,7 @@
     "data": [
       {
         "partner": "Scott",
-        "length": 8
+        "length": 9
       },
       {
         "partner": "Single",
@@ -52,7 +52,7 @@
     "data": [
       {
         "partner": "Mitchel",
-        "length": 2
+        "length": 3
       },
       {
         "partner": "Single",
@@ -77,7 +77,7 @@
     "data": [
       {
         "partner": "Tyrique",
-        "length": 10
+        "length": 11
       },
       {
         "partner": "Single",
@@ -98,7 +98,7 @@
     "data": [
       {
         "partner": "Mehdi",
-        "length": 15
+        "length": 16
       },
       {
         "partner": "Single",
@@ -115,7 +115,7 @@
     "data": [
       {
         "partner": "Montel",
-        "length": 2
+        "length": 3
       },
       {
         "partner": "Single",
@@ -140,7 +140,7 @@
     "data": [
       {
         "partner": "Sammy",
-        "length": 2
+        "length": 3
       },
       {
         "partner": "Single",
@@ -157,7 +157,7 @@
     "data": [
       {
         "partner": "Zachariah",
-        "length": 2
+        "length": 3
       }
     ],
     "smooth": true,
